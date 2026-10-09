@@ -6,14 +6,22 @@
 
 [![Portable checks](https://github.com/Estrella711/mochi-study/actions/workflows/portable-checks.yml/badge.svg)](https://github.com/Estrella711/mochi-study/actions/workflows/portable-checks.yml)
 ![试用版本](https://img.shields.io/badge/试用版-v2.0.0--beta.1-829F91)
-![平台](https://img.shields.io/badge/平台-Windows%20x64-A49BBE)
+![平台](https://img.shields.io/badge/平台-Windows%20%7C%20Web-A49BBE)
 ![界面](https://img.shields.io/badge/界面-中文-D3A59C)
 
-[下载 Windows 试用版](https://github.com/Estrella711/mochi-study/releases/download/v2.0.0-beta.1/MochiStudy-v2.0.0-beta.1-Windows-x64.zip) · [朋友试用指南](docs/FRIENDS_TEST_GUIDE.md) · [反馈问题](https://github.com/Estrella711/mochi-study/issues)
+[直接打开网页版](https://mochi-study-web.merry-ring-1591.chatgpt.site) · [下载 Windows 试用版](https://github.com/Estrella711/mochi-study/releases/download/v2.0.0-beta.1/MochiStudy-v2.0.0-beta.1-Windows-x64.zip) · [朋友试用指南](docs/FRIENDS_TEST_GUIDE.md) · [反馈问题](https://github.com/Estrella711/mochi-study/issues)
 
 </div>
 
-## 它能陪你做什么
+## 点链接就能用
+
+[糯米学习网页版](https://mochi-study-web.merry-ring-1591.chatgpt.site) 已上线，无需下载、安装或登录。网页版包含四象限待办、专注/休息倒计时、用眼提醒、金币商店、学习记录，以及新增的 **金毛小狗、DDL 与独立闹钟**。
+
+三只搭子分别命名；近期未完成 DDL 显示在页面顶部，可提前提醒。网页需要保持打开，关闭后不会响铃，后台挂起可能延后提醒或暂停计时。网页进度保存在各自浏览器，设置中可导出备份；与 Windows 存档暂不自动同步。网页支持浏览器内迷你钟；独立窗口和置顶请使用 Windows 版。
+
+网页版源码在 [Web](Web)，使用边界和本地修改方法见 [网页版说明](Web/README.md)。Windows 发布包继续保持 v2.0.0-beta.1；以下桌面功能说明对应该版本。
+
+## 桌面版能陪你做什么
 
 **Mochi Study（糯米学习）**是一款可爱的 Windows 桌面学习搭子应用。用四象限安排今天，开启一轮专注，收下金币，再给小猫或小兔添一件小衣物。任务、搭子和学习进度都留在本机，无需登录。
 
