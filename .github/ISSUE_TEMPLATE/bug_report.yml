@@ -1,0 +1,41 @@
+name: 试用问题
+description: 报告无法启动、显示或功能问题
+title: '[试用问题] '
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: 感谢试用。请描述具体操作；截图请遮住个人任务，不需要上传完整个人存档或系统日志。
+  - type: input
+    id: version
+    attributes:
+      label: 使用版本
+      placeholder: v2.0.0-beta.1
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows 与显示环境
+      placeholder: Windows 11，150% 缩放，单显示器
+  - type: textarea
+    id: steps
+    attributes:
+      label: 如何复现
+      placeholder: '1. 打开程序 2. 点击… 3. 出现…'
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 原本期待什么
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际发生什么
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 截图或补充说明

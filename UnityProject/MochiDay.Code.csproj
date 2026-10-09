@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <DefineConstants>UNITY_EDITOR;UNITY_STANDALONE_WIN</DefineConstants>
+    <LangVersion>9</LangVersion>
+    <UnityManagedPath Condition="'$(UnityManagedPath)' == ''">$(UNITY_MANAGED_PATH)</UnityManagedPath>
+    <NoWarn>$(NoWarn);CS0649</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\*.cs" />
+    <Compile Include="Assets\Editor\*.cs" />
+    <Reference Include="$(UnityManagedPath)\UnityEngine*.dll"><Private>false</Private></Reference>
+    <Reference Include="$(UnityManagedPath)\UnityEditor*.dll"><Private>false</Private></Reference>
+  </ItemGroup>
+  <Target Name="RequireUnityReferences" BeforeTargets="PrepareForBuild" Condition="!Exists('$(UnityManagedPath)/UnityEngine.CoreModule.dll')">
+    <Error Text="Set UnityManagedPath in Directory.Build.props (see its example), or UNITY_MANAGED_PATH, to your editor Data/Managed/UnityEngine directory." />
+  </Target>
+</Project>

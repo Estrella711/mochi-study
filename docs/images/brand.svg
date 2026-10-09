@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310" role="img" aria-labelledby="title desc">
+  <title id="title">Mochi Study · 糯米学习</title>
+  <desc id="desc">奶油色背景上，一只绿色眼睛的银渐层小猫坐在右侧。左侧写着 Mochi Study、糯米学习，以及今天也陪你慢慢向前。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#faf8f1"/>
+      <stop offset="1" stop-color="#f2f3e9"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#aeb7c3"/>
+      <stop offset=".55" stop-color="#e0e3df"/>
+      <stop offset="1" stop-color="#f4f3ea"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b5bfc9"/>
+      <stop offset="1" stop-color="#e9e9e0"/>
+    </linearGradient>
+    <linearGradient id="ear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#97a2b3"/>
+      <stop offset="1" stop-color="#e0e1da"/>
+    </linearGradient>
+    <linearGradient id="iris" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#84ad9e"/>
+      <stop offset="1" stop-color="#b4cca6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="310" rx="28" fill="url(#background)"/>
+  <circle cx="860" cy="30" r="171" fill="#e3ece1" opacity=".65"/>
+  <circle cx="1000" cy="288" r="129" fill="#eee9f4" opacity=".7"/>
+  <path d="M44 264C137 240 216 249 316 272" fill="none" stroke="#dce8db" stroke-width="2"/>
+  <circle cx="58" cy="58" r="5" fill="#a7c1ad"/>
+  <circle cx="72" cy="58" r="5" fill="#d4b7ad"/>
+  <circle cx="86" cy="58" r="5" fill="#b7acc9"/>
+  <g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">
+    <text x="56" y="136" fill="#43575b" font-size="53" font-weight="700" letter-spacing="-.8">Mochi Study</text>
+    <text x="58" y="188" fill="#6f9786" font-size="30" font-weight="600" letter-spacing="4">糯米学习</text>
+    <text x="58" y="233" fill="#819193" font-size="18" letter-spacing="1">今天也陪你慢慢向前。</text>
+  </g>
+  <g fill="#bba26d" opacity=".7">
+    <path d="M654 81l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/>
+    <path d="M932 170l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/>
+    <circle cx="668" cy="127" r="3"/>
+  </g>
+  <g transform="translate(641 16) scale(1.24)">
+    <ellipse cx="121" cy="211" rx="57" ry="7" fill="#809783" opacity=".13"/>
+    <path d="M162 178c21 10 44-3 44-23 0-14-15-23-23-12" fill="none" stroke="url(#body)" stroke-width="21" stroke-linecap="round"/>
+    <path d="M206 153l3 5m-14 18l4 5" stroke="#858f9d" stroke-width="3" opacity=".35" stroke-linecap="round"/>
+    <ellipse cx="122" cy="166" rx="47" ry="40" fill="url(#body)"/>
+    <ellipse cx="122" cy="175" rx="29" ry="27" fill="#f6f6ed"/>
+    <path d="M60 77L65 27Q67 21 71 25L110 71Z" fill="url(#ear)"/>
+    <path d="M134 72L174 24Q178 20 180 26L185 79Z" fill="url(#ear)"/>
+    <path d="M70 66l1-28 23 29zM151 67l23-30 2 29z" fill="#dca5ab"/>
+    <ellipse cx="122" cy="108" rx="73" ry="58" fill="url(#fur)"/>
+    <ellipse cx="65" cy="129" rx="22" ry="22" fill="url(#fur)"/>
+    <ellipse cx="178" cy="129" rx="22" ry="22" fill="url(#fur)"/>
+    <ellipse cx="84" cy="130" rx="25" ry="22" fill="#f7f7f0"/>
+    <ellipse cx="159" cy="130" rx="25" ry="22" fill="#f7f7f0"/>
+    <ellipse cx="122" cy="138" rx="28" ry="18" fill="#f6f6ed"/>
+    <g fill="#8592a5" opacity=".24">
+      <ellipse cx="108" cy="65" rx="5" ry="10" transform="rotate(-12 108 65)"/>
+      <ellipse cx="122" cy="63" rx="5" ry="11"/>
+      <ellipse cx="137" cy="65" rx="5" ry="10" transform="rotate(12 137 65)"/>
+    </g>
+    <g fill="#e6a9a9" opacity=".55">
+      <ellipse cx="73" cy="131" rx="12" ry="5"/>
+      <ellipse cx="170" cy="131" rx="12" ry="5"/>
+    </g>
+    <g>
+      <ellipse cx="90" cy="108" rx="14" ry="14" fill="#56666c" opacity=".2"/>
+      <ellipse cx="154" cy="108" rx="14" ry="14" fill="#56666c" opacity=".2"/>
+      <ellipse cx="90" cy="108" rx="12" ry="13" fill="#465b5c"/>
+      <ellipse cx="154" cy="108" rx="12" ry="13" fill="#465b5c"/>
+      <ellipse cx="90" cy="109" rx="10" ry="11" fill="url(#iris)"/>
+      <ellipse cx="154" cy="109" rx="10" ry="11" fill="url(#iris)"/>
+      <ellipse cx="91" cy="107" rx="4" ry="9" fill="#47525b"/>
+      <ellipse cx="155" cy="107" rx="4" ry="9" fill="#47525b"/>
+      <ellipse cx="86" cy="103" rx="4" ry="3.5" fill="#fff"/>
+      <ellipse cx="150" cy="103" rx="4" ry="3.5" fill="#fff"/>
+      <circle cx="96" cy="115" r="1.8" fill="#fff"/>
+      <circle cx="160" cy="115" r="1.8" fill="#fff"/>
+    </g>
+    <path d="M115 129Q122 124 129 129L122 135Z" fill="#ca8f97"/>
+    <path d="M122 134v5m0 0q-5 8-11 1m11-1q5 8 11 1" fill="none" stroke="#43575b" stroke-width="1.8" stroke-linecap="round"/>
+    <g stroke="#68717d" stroke-width="1.4" opacity=".55" stroke-linecap="round">
+      <path d="M70 133l-25-5m23 13l-27 1m29 6l-23 7M173 133l25-5m-23 13l27 1m-29 6l23 7"/>
+    </g>
+    <ellipse cx="76" cy="174" rx="14" ry="22" fill="url(#body)"/>
+    <ellipse cx="168" cy="174" rx="14" ry="22" fill="url(#body)"/>
+    <ellipse cx="98" cy="200" rx="20" ry="10" fill="url(#body)"/>
+    <ellipse cx="147" cy="200" rx="20" ry="10" fill="url(#body)"/>
+    <g stroke="#858f9d" stroke-width="1.2" opacity=".35" stroke-linecap="round">
+      <path d="M91 198v6m8-6v6m41-6v6m8-6v6"/>
+    </g>
+  </g>
+</svg>

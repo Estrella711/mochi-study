@@ -1,0 +1,22 @@
+PASS CRUD and all four quadrants
+PASS Completion, undo, caps and delete recalculate
+PASS Midnight, history, clock rollback and restart
+PASS Atomic backup, corruption recovery, invalid schema protection
+PASS V1 migration preserves original tasks and source file
+PASS Future schema remains read-only despite a valid older backup
+PASS Invalid legacy and unrecoverable v2 keep source files
+PASS Cat and bunny keep independent Chinese names through restart
+PASS Shop requires funds and ownership, repeated purchases charge once
+PASS Focus counts 60 small ticks and grants one reward and one record
+PASS Pause, resume and reset never award abandoned focus
+PASS Short and fourth-cycle long breaks have no coin rewards
+PASS Sleep gaps, invalid deltas and clock jumps cannot fabricate time
+PASS Restart pauses countdown and keeps partial progress without offline coins
+PASS Completed saved session is idempotent when a stale timer is replayed
+PASS Cross-midnight focus records use completion date and preserve tasks
+PASS Eye reminders repeat by active-focus cadence and never pause focus
+PASS Disabled eye reminders stay silent across a full long focus
+PASS Changing settings preserves the current session duration and reward
+PASS Wallet overflow is capped and the record reflects credited coins
+PASS Full v2 JSON and local save preserve statistics, settings and wardrobe
+TOTAL 21 passed, 0 failed

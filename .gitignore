@@ -1,0 +1,33 @@
+# Unity generated and machine-specific files
+UnityProject/Library/
+UnityProject/Temp/
+UnityProject/Logs/
+UnityProject/UserSettings/
+UnityProject/.vs/
+.vs/
+**/bin/
+**/obj/
+**/*.user
+**/*.suo
+UnityProject/*.csproj
+!UnityProject/MochiDay.Code.csproj
+UnityProject/*.sln
+UnityProject/*.slnx
+Directory.Build.props
+# Local output, credentials, and personal progress
+Windows/
+artifacts/
+work/
+TestReport.txt
+test-data-*/
+**/study.json*
+**/days.json*
+**/Backups/
+*.log
+.env
+.env.*
+*.ulp
+*.ulf
+*.al
+.DS_Store
+Thumbs.db

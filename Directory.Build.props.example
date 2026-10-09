@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Copy to Directory.Build.props; use your editor's Data/Managed/UnityEngine directory. -->
+    <UnityManagedPath>C:\YourEditor\Editor\Data\Managed\UnityEngine</UnityManagedPath>
+  </PropertyGroup>
+</Project>

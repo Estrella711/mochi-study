@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <NoWarn>$(NoWarn);CS0649</NoWarn>
+    <UnityProjectPath Condition="'$(UnityProjectPath)' == ''">$(MSBuildThisFileDirectory)../../UnityProject</UnityProjectPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(UnityProjectPath)/Assets/Scripts/TaskDomain.cs" Link="Domain/TaskDomain.cs" />
+    <Compile Include="$(UnityProjectPath)/Assets/Scripts/StudyDomain.cs" Link="Domain/StudyDomain.cs" />
+    <Compile Include="$(UnityProjectPath)/Assets/Scripts/CoreChecks.cs" Link="Checks/CoreChecks.cs" />
+    <Compile Include="$(UnityProjectPath)/Assets/Scripts/StudyChecks.cs" Link="Checks/StudyChecks.cs" />
+    <Compile Include="UnityStandIns.cs" />
+    <Compile Include="CoreChecksRunner.cs" />
+  </ItemGroup>
+</Project>

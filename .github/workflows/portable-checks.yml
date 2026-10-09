@@ -1,0 +1,25 @@
+name: Portable checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  domain-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: '10.0.x'
+      - name: Run 21 portable checks
+        run: dotnet run --project tests/PortableChecks/PortableChecks.csproj --configuration Release
+      - name: Add report to summary
+        if: always()
+        run: |
+          if [ -f work/portable-checks/report.txt ]; then
+            cat work/portable-checks/report.txt >> "$GITHUB_STEP_SUMMARY"
+          fi
